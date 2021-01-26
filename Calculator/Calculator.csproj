@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Super Useful Calculator</Title>
+    <Version>2.3.1</Version>
+    <RepositoryType>Git</RepositoryType>
+    <PackageId>Calculator</PackageId>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <PackageTags>calculator,not-really-useful</PackageTags>
+    <RepositoryUrl>https://github.com/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/</PackageProjectUrl>
+    <PackageIconUrl>https://cdn.pixabay.com/photo/2016/04/25/18/03/kingfisher-1352520_960_720.jpg</PackageIconUrl>
+    <Description>Useful calculator library for doing nothing</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
