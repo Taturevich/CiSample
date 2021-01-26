@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <PackagePath>\</PackagePath>
-    <EnableDefaultContentItems>false</EnableDefaultContentItems>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="published\**\*">
       <Pack>true</Pack>
+      <IncludeInPackage>true</IncludeInPackage>
       <PackagePath>\</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
     </Content>
   </ItemGroup>
 
